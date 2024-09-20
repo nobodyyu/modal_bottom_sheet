@@ -1,8 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-
-import '../modal_bottom_sheet.dart';
+import 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
 
 const Duration _bottomSheetDuration = Duration(milliseconds: 400);
 
@@ -138,7 +137,7 @@ class ModalSheetRoute<T> extends PageRoute<T> {
     this.animationCurve,
     Duration? duration,
     super.settings,
-  })  : duration = duration ?? _bottomSheetDuration;
+  }) : duration = duration ?? _bottomSheetDuration;
 
   final double? closeProgressThreshold;
   final WidgetWithChildBuilder? containerBuilder;

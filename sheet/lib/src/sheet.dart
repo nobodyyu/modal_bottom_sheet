@@ -3,10 +3,9 @@
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:sheet/sheet.dart';
 import 'package:sheet/src/widgets/resizable_sheet.dart';
 import 'package:sheet/src/widgets/status_bar_gesture_detector.dart';
-
-import '../sheet.dart';
 
 /// How to size the content of a [Sheet].
 ///
